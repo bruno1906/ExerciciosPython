@@ -1,0 +1,11 @@
+n=str(input('Digite seu nome completo:'))
+d=n.split()
+nm=(n.upper())
+nmi=(n.lower())
+ql=(len(n.strip())-n.count(' '))
+qpn=(len(d[0]))
+print('Nome maiusculo:{}'.format(nm))
+print('Nome minusculo:{}'.format(nmi))
+print('Quantas letras tem ao todo:{}'.format(ql))
+print('Quantas letras tem o primeiro nome:{}'.format(qpn))
+

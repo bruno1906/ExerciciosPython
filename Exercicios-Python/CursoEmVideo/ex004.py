@@ -1,0 +1,7 @@
+n=input('Digite algo:')
+print('O tipo primitivo desse valor é',type(n))
+print('So tem espaços?',n.isspace())
+print('É alfabetico?',n.isalpha())
+print('É um número?',n.isnumeric())
+print('É alfanumero',n.isalnum())
+print('Esta em maiscula?',n.isupper())
